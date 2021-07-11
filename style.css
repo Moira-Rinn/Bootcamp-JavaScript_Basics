@@ -1,0 +1,95 @@
+/* Rest Padding and Margin */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Position on Page */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+/* Define Main Wrapper Container */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  width: 1170px; /*increased with from 970px to maintain proportion with image*/
+  background-color: #1b335d;
+  padding: 10px;
+}
+
+/* Title Layout in Header */
+
+header {
+  width: 100%;
+  height: 70px;
+  color: #c2e6dc;
+  background-color: #cf3036;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 10px;
+}
+
+/* Aside Nav Menu Layout */
+
+aside {
+  flex: 2;
+  height: 45%;
+  border-radius: 15px;
+  background-color: #2a7d8c;
+  padding: 15px 0 15px 15px;
+  margin: 0 10px 0 0;
+}
+
+/* Main Content Layout */
+
+main {
+  display: flex;
+  color: #c2e6dc;
+  padding: 10px 0;
+}
+a {
+  color: #67dae2;
+}
+span {
+  color: #3a3bb9;
+}
+ul {
+  padding: 0 15px;
+}
+
+/* Content Layout */
+
+.content {
+  flex: 9;
+  background-color: #0e1822;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 0 0 0 10px;
+}
+.content li {
+  margin: 10px;
+}
+
+/* Footer Layout */
+
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  color: #c2e6dc;
+  background-color: #5d6673;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+}
